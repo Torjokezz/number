@@ -5,7 +5,7 @@ public class Main {
 
         System.out.println("Hello JavaWorld!");
         int x;
-        int max = 3;
+        int max = 100;
         int min = 1;
         int num = 0;
         x = (int)(Math.random() * ((max - min)+1)) + min;
@@ -15,7 +15,8 @@ public class Main {
         while (num != x) {
             System.out.print("Введите загаданное число: ");
             num = in.nextInt();
-            if (num < x) {System.out.print("Число меньше");}
+            if (num < x) {System.out.println("Число меньше");}
+            if (num > x) {System.out.println("Число больше");}
         }
 
         System.out.printf("Вы угадали. Это число: %d \n", x);
