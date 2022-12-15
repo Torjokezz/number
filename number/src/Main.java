@@ -15,8 +15,8 @@ public class Main {
         while (num != x) {
             System.out.print("Введите загаданное число: ");
             num = in.nextInt();
-            if (num < x) {System.out.println("Число меньше");}
-            if (num > x) {System.out.println("Число больше");}
+            if (num < x) {System.out.println("Ваше Число меньше");}
+            if (num > x) {System.out.println("Ваше Число больше");}
         }
 
         System.out.printf("Вы угадали. Это число: %d \n", x);
